@@ -2,18 +2,26 @@
 <html lang="en">
   <head>
     <script type="text/javascript">
-      if ((window.location.host == "cv.remitaffin.fr") && (window.location.protocol != "https:"))
+      if ((window.location.host == "resume.remitaffin.fr") && (window.location.protocol != "https:"))
         window.location.protocol = "https";
     </script>
     <link rel="stylesheet" href="screen.css">
     <link rel="stylesheet" href="print.css" media="print">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
     <meta name="author" content="Remi Taffin"/>
     <meta name="keywords" content="Remi Taffin"/>
-    <meta name="description" content="Remi Taffin, DevOps Engineer from France, working with Ansible, Docker and Amazon EC2"/>
+    <meta name="description" content="Remi Taffin, DevOps Engineer - AWS, Ansible and Docker"/>
+    
+    <meta property="og:title" content="Resume - R&eacute;mi Taffin" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://resume.remitaffin.fr/profile.html" />
+    <meta property="og:image" content="https://lh3.googleusercontent.com/I-IlLAgCFYWSnHmXbc3U1EyafJXe868UM-HBMBlEfTTg516pzrMrGRhYtel86J-LWELl6SsDHKibMKDMcP1_v6Hvdv5-0DjmBZMj" />
+    <meta property="og:description" content="Remi Taffin, DevOps Engineer - AWS, Ansible and Docker" />
+
     <meta charset="utf-8">
-    <title>CV R&eacute;mi Taffin - Portfolio - English</title>
+    <title>Resume - R&eacute;mi Taffin</title>
     <noscript>
       <link rel="stylesheet" href="nojs.css">
     </noscript>
@@ -40,9 +48,9 @@
           <dt>Python</dt>
           <dd style="width: 85px"></dd>
           <dt>Ansible</dt>
-          <dd style="width: 90px"></dd>
+          <dd style="width: 95px"></dd>
           <dt>Git</dt>
-          <dd style="width: 90px"></dd>
+          <dd style="width: 95px"></dd>
           <dt>PHP</dt>
           <dd style="width: 70px"></dd>
           <dt>Shell</dt>
@@ -57,15 +65,15 @@
       <div class="ops hidden">
         <dl>
           <dt>Ubuntu</dt>
-          <dd style="width: 80px"></dd>
+          <dd style="width: 00px"></dd>
           <dt>Docker</dt>
           <dd style="width: 90px"></dd>
           <dt>CI</dt>
           <dd style="width: 90px"></dd>
-          <dt>AWS EC2</dt>
+          <dt>AWS</dt>
           <dd style="width: 95px"></dd>
           <dt>Database Management</dt>
-          <dd style="width: 95px"></dd>
+          <dd style="width: 90px"></dd>
         </dl>
         <ul>
           <li>Vagrant</li>
@@ -91,12 +99,89 @@
           The Noodle Companies</a>,<br />New York, USA</h4>
         <time datetime="2016-10">October 2016 - now</time>
         <div>
-          <p>Worked in the DevOps Team</p>
+          <p>The Noodle Companies, LLC is a "studio" of people working to
+            improve education and learning choices. Each of its four
+            sub-companies (read more about them here) is creating services
+            and products that harness technology and creativity to connect
+            students, educators, and providers of educational resources on
+            many levels from pre-school to grad.</p>
+          <br/><br/>
+          <h5><u>Key Numbers about The Noodle Companies:</u></h5>
           <ul>
-            <li>Manage architecture for 4 companies, 100+ servers, 7 web sites</li>
-            <li>Environment consistency and provisioning using configuration Management: Ansible</li>
-            <li>Local Building: Vagrant, Docker, Docker-compose</li>
-            <li>Working Environments: Django, Flask, Laravel, F#, Node.js</li>
+            <li>Highest-traffic website: 400K visits/month</li>
+            <li># of websites across 4 companies: 21</li>
+            <li># of websites automated using infrastructure as code: 19</li>
+            <li>Average uptime for all websites: 99.996%</li>
+            <li># of servers across 4 companies: 160+</li>
+            <li>Deployment frequency: 40-50 deployments per week</li>
+            <li># of DevOps Engineers: I’m the only one!</li>
+          </ul>
+          <br/><br/>
+          <h5><u>My responsibilities:</u></h5>
+          <ul>
+            <li>Ensure High Availability of all servers whether they are
+                public-facing or internal</li>
+            <li>Automate server provisioning and deployments using
+                infrastructure as code (using ansible)</li>
+            <li>Increase maintainability with better system and
+                performance monitoring</li>
+            <li>Implement High Availability for all production servers,
+                regardless of hardware failures, traffic, number of deployments,
+                security attacks or if the site is being scraped</li>
+            <li>Manage data replication and data continuity for all databases
+                and search engines (although we are slowly transitioning every
+                site to AWS RDS)</li>
+            <li>Security Review and Audit</li>
+            <li>Enforce deployment workflows to prevent inconsistencies
+                and allow for rollbacks or hotfixes</li>
+            <li>Identify bottlenecks in release cycles</li>
+            <li>IT Troubleshooting and improving performance</li>
+            <li>Managing Continuous Integration for multiple release
+                pipelines</li>
+            <li>Improve idempotency, logging and error management for local
+                environment (using docker)</li>
+            <li>IT Budgeting</li>
+            <li>Backend Development</li>
+          <br/><br/>
+          <h5><u>Tech Stacks:</u></h5>
+          <ul>
+            <li>Server Framework: Django (Python), Flask (Python),
+                Ruby on Rails, Laravel (PHP), Node.js, .NET (F#)</li>
+            <li>Front-end Framework: Angular (node.js), React</li>
+            <li>CMS: self-hosted Wordpress, Contentful</li>
+            <li>Continuous Integration: Git, Jenkins</li>
+            <li>System Administration: Ubuntu, Windows Server</li>
+            <li>AWS: EC2, VPC, RDS, Elasticache, Redshift, S3, Route53,
+                IAM, Cloudwatch, Cloudtrail</li>
+            <li>Website protection: Cloudflare, AWS WAF, AWS Shield</li>
+            <li>Configuration Management: Ansible</li>
+            <li>Local Building: Docker for Mac, Docker-compose</li>
+            <li>Data storage: MySQL, PostgreSQL, MongoDB, ElasticSearch,
+                Solr, CouchDB, sqlite, geo service</li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
           </ul>
         </div>
       <article>
@@ -114,7 +199,6 @@
             <li>Configuration Management: Ansible</li>
             <li>Local Building: Vagrant, Docker, Docker-compose/Fig</li>
             <li>Working Environments: Django (Gunicorn, Celery, RabbitMQ), Laravel (PHP5-FPM)</li>
-            <li>Worked in several teams of 5-20</li>
           </ul>
         </div>
       </article>
@@ -181,27 +265,52 @@
       </article>
     </section>
 
-    <section id="other">
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <article class="first">
+        <i class="fab fa-aws fa-5x"></i>
+        <h3>AWS DevOps Professional</h3>
+        <h4>Apr 2018 – Apr 2020</h4>
+      </article>
+      <article>
+        <i class="fab fa-aws fa-5x"></i>
+        <h3>AWS SysOps<br/>Associate</h3>
+        <h4>Feb 2018 – Apr 2020</h4>
+      </article>
+      <article class="last">
+        <i class="fab fa-aws fa-5x"></i>
+        <h3>AWS Developer Associate</h3>
+        <h4>Dec 2017 – Apr 2020</h4>
+      </article>
+    </section>
+
+    <section id="languages">
       <h2>Languages</h2>
       <article class="first">
         <h3>French</h3>
-        <input type="text" value="0" class="dial dial1" data-final="100">
-        <noscript><span class="percentage">100%</span></noscript>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <h4>Fluent (native)</h4>
       </article>
       <article>
         <h3>English</h3>
-        <input type="text" value="0" class="dial dial2" data-final="95">
-        <noscript><span class="percentage">95%</span></noscript>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <h4>Fluent</h4>
       </article>
       <article>
         <h3>Spanish</h3>
-        <input type="text" value="0" class="dial dial3" data-final="90">
-        <noscript><span class="percentage">90%</span></noscript>
-      </article>
-      <article class="last">
-        <h3>German</h3>
-        <input type="text" value="0" class="dial dial4" data-final="50">
-        <noscript><span class="percentage">50%</span></noscript>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <h4>Proficient</h4>
       </article>
     </section>
 
@@ -209,8 +318,8 @@
       <h2>Education</h2>
       <article>
         <h3>Master's Degree in Computer Science</h3>
-        <h4><a href="
-          ://www.ig2i.fr" target="_blank">IG2I</a>, 
+        <h4>
+          <a href="http://www.ig2i.fr" target="_blank">IG2I</a>, 
           <a href="http://www.ec-lille.fr" target="_blank">Ecole Centrale de Lille</a>, Lens FR</h4>
         <time datetime="2015-07">July 2015</time>
       </article>
