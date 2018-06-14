@@ -20,4 +20,10 @@ $(document).ready(function() {
       $(".cleft").fadeOut(500);
     }, 4500);
   }
+  
+  $('.load-more').on('click', function(e) {
+    $(this).addClass('hidden');
+    $(this).next('.more').fadeToggle();
+    e.preventDefault();
+  });
 });
