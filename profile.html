@@ -25,6 +25,12 @@
     <noscript>
       <link rel="stylesheet" href="nojs.css">
     </noscript>
+    <script type="text/javascript">
+      function get_number_of_months() {
+          var start_date = new Date(2015, 02, 01), end_date = new Date();
+          return 5 + 3 + 6 + (end_date.getFullYear() - start_date.getFullYear())*12 + (end_date.getMonth() - start_date.getMonth());
+      }
+    </script>
   </head>
   <body>
 
@@ -51,15 +57,15 @@
           <dd style="width: 95px"></dd>
           <dt>Git</dt>
           <dd style="width: 95px"></dd>
-          <dt>PHP</dt>
-          <dd style="width: 70px"></dd>
+          <dt>Ruby/Chef</dt>
+          <dd style="width: 60px"></dd>
           <dt>CI</dt>
           <dd style="width: 90px"></dd>
         </dl>
         <ul>
           <li>Node.js</li>
-          <li>Shell</li>
-          <li>Scraping</li>
+          <li>Bash</li>
+          <li>PHP</li>
         </ul>
       </div>
       <div class="ops hidden">
@@ -73,7 +79,7 @@
           <dt>Database Management</dt>
           <dd style="width: 90px"></dd>
           <dt>Terraform</dt>
-          <dd style="width: 80px"></dd>
+          <dd style="width: 85px"></dd>
         </dl>
         <ul>
           <li>Vagrant</li>
@@ -85,21 +91,39 @@
 
     <section id="profile">
       <p>
-      As a Web Engineer, I quickly realized that there's nothing more
-      frustrating than performing the same repetitive tasks over and over again.
-      That's why I started connecting the dots from my previous experiences
-      in different IT fields to automate every task around me.
-      I am fully convinced that I can make people's life easier and
-      I'm fully determined to do so!
+      With <script>document.write((get_number_of_months()/12).toPrecision(1));</script>
+      years of experience in DevOps, I understand that dev and ops teams
+      have fundamentally different goals. Developer success is measured with
+      code releases while sysops success is measured by system stability.
+      I am a problem solver who strives to bridge the gap between both teams
+      by delivering reliable and automated systems. This leads to shorter
+      release cycles, better communication, less conflict, lower IT costs and
+      lets you focus on growing your business.
       </p>
     </section>
 
     <section id="experience">
       <h2>Experience</h2>
       <article>
+        <h3>OrderGroove, New York</h3>
+        <h4>Senior Software Engineer / SRE</h4>
+        <time datetime="2018-10">April 2019 - now</time>
+        <div>
+            <p>
+                <a target="_blank" href="https://www.ordergroove.com">OrderGroove</a>
+                helps big brands and omnichannel retailers shift consumer
+                interactions from momentary transactions to ongoing
+                relationships.
+            </p>
+          <ul>
+            <li>Engineering Productivity Team</li>
+          </ul>
+        </div>
+      </article>
+      <article>
         <h3>General Assembly, New York</h3>
         <h4>Senior DevOps Engineer</h4>
-        <time datetime="2018-10">October 2018 - now</time>
+        <time datetime="2018-10">October 2018 - April 2019</time>
         <div>
             <p>
                 <a target="_blank" href="https://generalassemb.ly">General Assembly</a>
@@ -335,7 +359,7 @@
     </section>
 
     <footer>
-        <a href="/pdf/cv-remi-taffin-en.pdf"><span>Download</span><span class="mail">PDF</span></a>
+        <a href="https://www.linkedin.com/in/remitaffin"><span>Connect</span><span class="mail">LinkedIn</span></a>
         <a href="mailto:remit@ffin.fr"><span>Contact me</span><span class="mail">remit@ffin.fr</span></a>
     </footer>
 
