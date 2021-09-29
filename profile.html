@@ -25,6 +25,15 @@
     <noscript>
       <link rel="stylesheet" href="nojs.css">
     </noscript>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43430649-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-43430649-1');
+    </script>
     <script type="text/javascript">
       function get_number_of_months() {
           var start_date = new Date(2015, 02, 01), end_date = new Date();
@@ -37,7 +46,7 @@
     <header>
       <div class="fl">
         <h1>Remi Taffin</h1>
-        <h2>DevOps Engineer</h2>
+        <h2>Site Reliability Engineer</h2>
       </div>
       <nav id="contact">
         <a href="mailto:remit@ffin.fr"><span>remit@ffin.fr</span></a>
@@ -53,38 +62,38 @@
         <dl>
           <dt>Python</dt>
           <dd style="width: 85px"></dd>
-          <dt>Ansible</dt>
-          <dd style="width: 95px"></dd>
+          <dt>Javascript</dt>
+          <dd style="width: 85px"></dd>
           <dt>Git</dt>
           <dd style="width: 95px"></dd>
-          <dt>Ruby/Chef</dt>
-          <dd style="width: 60px"></dd>
           <dt>CI</dt>
           <dd style="width: 90px"></dd>
+          <dt>Ruby/Chef</dt>
+          <dd style="width: 70px"></dd>
         </dl>
         <ul>
-          <li>Node.js</li>
           <li>Bash</li>
           <li>PHP</li>
+          <li>HTML/CSS</li>
         </ul>
       </div>
       <div class="ops hidden">
         <dl>
-          <dt>Ubuntu</dt>
-          <dd style="width: 85px"></dd>
-          <dt>Docker</dt>
-          <dd style="width: 90px"></dd>
-          <dt>AWS</dt>
+          <dt>AWS/GCP</dt>
           <dd style="width: 95px"></dd>
-          <dt>Database Management</dt>
-          <dd style="width: 90px"></dd>
           <dt>Terraform</dt>
+          <dd style="width: 85px"></dd>
+          <dt>Linux</dt>
+          <dd style="width: 85px"></dd>
+          <dt>Kubernetes/ Helm</dt>
+          <dd style="width: 90px"></dd>
+          <dt>ArgoCD</dt>
           <dd style="width: 85px"></dd>
         </dl>
         <ul>
-          <li>Vagrant</li>
+          <li>Security</li>
           <li>Monitoring</li>
-          <li>Logging</li>
+          <li>Database Management</li>
         </ul>
       </div>
     </section>
@@ -106,10 +115,12 @@
       <h2>Experience</h2>
       <article>
         <h3>OrderGroove, New York</h3>
-        <h4>Manager, DevOps and Engineering Productivity</h4>
-        <time datetime="2016-10">November 2019 - now</time>
+        <h4>Director, SRE, Engineering Productivity and Security</h4>
+        <time datetime="2021-09">September 2021 - now</time>
+        <h4>Manager, SRE and Engineering Productivity</h4>
+        <time datetime="2019-10">October 2019 - September 2021</time>
         <h4>Senior Software Engineer, Engineering Productivity</h4>
-        <time datetime="2018-10">April 2019 - October 2019</time>
+        <time datetime="2019-04">April 2019 - October 2019</time>
         <div>
             <p>
                 <a target="_blank" href="https://www.ordergroove.com">OrderGroove</a>
@@ -123,6 +134,7 @@
                   <li>Migrate monolith applications and microservices from Rackspace to GCP</li>
                   <li>Standardize CI/CD using Kubernetes</li>
                   <li>Lead DevOps Transformation</li>
+                  <li>Continuous Deployments using ArgoCD</li>
                 </ul>
             </p>
 
@@ -371,7 +383,6 @@
         <a href="mailto:remit@ffin.fr"><span>Contact me</span><span class="mail">remit@ffin.fr</span></a>
     </footer>
 
-    <script src="google-analytics.js"></script>
     <script src="jquery.min.js"></script>
     <script src="main.js"></script>
   </body>
